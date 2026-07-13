@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mohamed Zaher | مصمم جرافيك محترف</title>
+
+<meta name="description" content="مصمم جرافيك محترف لعمل لوجوهات وتصميمات سوشيال ميديا تزيد مبيعاتك">
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Cairo',sans-serif}
+body{background:#0a0a0a;color:#fff}
+
+/* LOADER */
+#loader{position:fixed;width:100%;height:100vh;background:#000;display:flex;align-items:center;justify-content:center;z-index:9999}
+
+/* NAV */
+nav{position:fixed;width:100%;top:0;background:#000c;padding:15px;text-align:center;z-index:1000}
+nav a{color:#fff;margin:10px;text-decoration:none}
+nav a:hover{color:#00ffd5}
+
+/* HERO */
+.hero{height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.hero img{width:140px;height:140px;border-radius:50%;border:3px solid #00ffd5}
+h1{font-size:32px}
+.btn{background:#00ffd5;color:#000;padding:12px 25px;border-radius:30px;text-decoration:none;display:inline-block;margin-top:15px}
+
+/* SECTIONS */
+section{padding:80px 20px;text-align:center}
+h2{margin-bottom:20px}
+
+/* GRID */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px}
+.grid img{width:100%;border-radius:10px;transition:.4s}
+.grid img:hover{transform:scale(1.08);box-shadow:0 15px 40px #00ffd580}
+
+/* TRUST BAR */
+.trust{display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+.trust div{background:#111;padding:10px 20px;border-radius:10px}
+
+/* PRICING */
+.pricing{display:flex;flex-wrap:wrap;justify-content:center;gap:20px}
+.box{background:#111;padding:20px;border-radius:15px;width:260px}
+.price{color:#00ffd5;font-size:28px}
+
+/* FORM */
+input,textarea{width:100%;padding:10px;margin:10px 0;border-radius:10px;border:none}
+
+/* URGENCY */
+.urgent{color:#ff4444;font-weight:bold;margin-top:10px}
+
+/* WHATS */
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25d366;padding:15px;border-radius:50%;color:#fff;text-decoration:none}
+
+/* ANIMATION */
+.fade{animation:fade 1.5s}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+</style>
+</head>
+
+<body>
+
+<div id="loader">جاري التحميل...</div>
+
+<nav>
+<a href="#">الرئيسية</a>
+<a href="#portfolio">أعمالي</a>
+<a href="#pricing">الأسعار</a>
+<a href="#order">اطلب</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero fade">
+<img src="me.jpg">
+<h1>Mohamed Zaher</h1>
+
+<p>🔥 تصاميم بتحول الزوار لعملاء</p>
+<p>💰 زوّد مبيعاتك بتصميم احترافي</p>
+<p>🚀 اشتغل مع مصمم فاهم السوق العربي</p>
+
+<a class="btn" href="https://wa.me/201093524689">اطلب تصميم الآن</a>
+</section>
+
+<!-- TRUST -->
+<section>
+<h2>لماذا تختارني؟</h2>
+<div class="trust">
+<div>+50 عميل</div>
+<div>خبرة في السوق العربي</div>
+<div>تسليم سريع</div>
+<div>جودة عالية</div>
+</div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+<h2>أعمالي</h2>
+
+<h3>لوجوهات</h3>
+<div class="grid">
+<img src="logo1.jpg"><img src="logo2.jpg"><img src="logo3.jpg">
+<img src="logo4.jpg"><img src="logo5.jpg"><img src="logo6.jpg">
+<img src="logo7.jpg"><img src="logo8.jpg"><img src="logo9.jpg">
+<img src="logo10.jpg"><img src="logo11.jpg"><img src="logo12.jpg">
+</div>
+
+<h3>سوشيال ميديا</h3>
+<div class="grid">
+<img src="social1.jpg"><img src="social2.jpg"><img src="social3.jpg">
+<img src="social4.jpg"><img src="social5.jpg"><img src="social6.jpg">
+<img src="social7.jpg"><img src="social8.jpg"><img src="social9.jpg">
+<img src="social10.jpg"><img src="social11.jpg"><img src="social12.jpg">
+<img src="social13.jpg">
+</div>
+
+<h3>براندينج</h3>
+<div class="grid">
+<img src="brand1.jpg"><img src="brand2.jpg">
+<img src="brand3.jpg"><img src="brand4.jpg">
+</div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+<h2>الباقات</h2>
+
+<div class="pricing">
+
+<div class="box">
+<h3>Starter</h3>
+<p class="price">500 EGP</p>
+<p>3 تصميمات</p>
+<p class="urgent">⏳ متاح 3 أماكن فقط</p>
+<a class="btn" href="https://wa.me/201093524689">احجز الآن</a>
+</div>
+
+<div class="box">
+<h3>Pro</h3>
+<p class="price">1000 EGP</p>
+<p>10 تصميمات + لوجو</p>
+<p class="urgent">🔥 الأكثر طلباً</p>
+<a class="btn" href="https://wa.me/201093524689">احجز الآن</a>
+</div>
+
+<div class="box">
+<h3>Business</h3>
+<p class="price">2000 EGP</p>
+<p>هوية كاملة</p>
+<p class="urgent">💰 أفضل استثمار</p>
+<a class="btn" href="https://wa.me/201093524689">احجز الآن</a>
+</div>
+
+</div>
+</section>
+
+<!-- REVIEWS -->
+<section>
+<h2>آراء العملاء</h2>
+<p>⭐️⭐️⭐️⭐️⭐️ "التصميمات رفعت المبيعات عندي"</p>
+<p>⭐️⭐️⭐️⭐️⭐️ "احترافية وسرعة في التسليم"</p>
+</section>
+
+<!-- ORDER -->
+<section id="order">
+<h2>احجز تصميمك الآن</h2>
+
+<form id="form">
+<input type="text" placeholder="اسمك" required>
+<input type="text" placeholder="الخدمة" required>
+<textarea placeholder="تفاصيل الطلب" required></textarea>
+<button class="btn">إرسال الطلب</button>
+</form>
+</section>
+
+<a class="whatsapp" href="https://wa.me/201093524689">💬</a>
+
+<script>
+// loader
+window.onload=()=>document.getElementById("loader").style.display="none";
+
+// form
+document.getElementById("form").addEventListener("submit",function(e){
+e.preventDefault();
+let d=this.querySelectorAll("input,textarea");
+let msg=`طلب جديد:
+الاسم:${d[0].value}
+الخدمة:${d[1].value}
+التفاصيل:${d[2].value}`;
+window.open("https://wa.me/201093524689?text="+encodeURIComponent(msg));
+});
+</script>
+
+</body>
+</html>
